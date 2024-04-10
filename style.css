@@ -1,0 +1,71 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: antiquewhite;
+  }
+  .todo{
+    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 3rem;    
+}
+.form{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: 50%;
+  background-color: #eeba90;
+  padding: 1rem;
+  margin: 4rem;
+  border-radius: 10px;
+}
+.labels{
+  display: flex;
+  flex-direction: column;
+  width: 40%;
+  
+}
+.label{
+  width: 100%;
+  
+}
+.input{
+  border: none;
+  padding: .2rem;
+  border-radius: 4px;
+}
+
+.imagen img{
+  width: 40%;
+  height: auto;
+ 
+}
+.imagen{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 3rem;
+}
+.btns{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 50px;
+  width: 50%;
+  margin: 1rem;
+}
+.botones{
+  border: none;
+  background-color: rgb(253, 244, 231);
+  color: black;
+  padding: .3rem;
+  border-radius: 3px;
+  font-weight: bold;
+  width: 50%;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-size: medium;
+}
+
+ 
